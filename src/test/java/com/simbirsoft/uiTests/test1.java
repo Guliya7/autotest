@@ -4,6 +4,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import io.qameta.allure.Description;
 
 import static com.simbirsoft.Config.*;
 import static org.testng.Assert.assertEquals;
