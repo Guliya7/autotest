@@ -10,6 +10,7 @@ import static org.testng.Assert.assertEquals;
 
 public class DiskApiTest {
     @Test
+    @Description("Some detailed test description")
     public void getMetainformationAboutDiskUserTest() {
         MetainformationAboutDiskUser metainformationAboutDiskUser = new DiskApi()
                 .GetAllMetainformationAboutDiskUser();
