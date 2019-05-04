@@ -18,6 +18,7 @@ public class test1 extends BaseTest {
     }
 
     @Test
+    @Description("Some detailed test description test1")
     public void test1() {
         int size = app.getMainPage().getResourceListSize();
         app.getMainPage().createFolder("ololo");
