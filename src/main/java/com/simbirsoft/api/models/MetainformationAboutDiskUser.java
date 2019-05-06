@@ -3,6 +3,7 @@ package com.simbirsoft.api.models;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class MetainformationAboutDiskUser {
 
     @SerializedName("max_file_size")
