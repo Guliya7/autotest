@@ -8,4 +8,9 @@
             <class name="com.simbirsoft.uiTests.test1"/>
         </classes>
     </test>
+    <test name="apiTests">
+        <classes>
+            <class name="com.simbirsoft.DiskApiTest"/>
+        </classes>
+    </test>
 </suite>
