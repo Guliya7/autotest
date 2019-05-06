@@ -12,5 +12,5 @@ public class Config {
     public static final String USER_PASS = "sdet123";
 
     public static final String API_HOST = "https://cloud-api.yandex.net";
-    public static final String TOKEN = "AQAEA7qh04JfAADLW4J-F47JS0Tvkd5rorMxpqY";
+    public static final String TOKEN = "AQAAAAAcaJyiAADLWw-4fNLga0y9n4Iu-773U4M";
 }
