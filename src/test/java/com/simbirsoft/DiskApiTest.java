@@ -16,8 +16,5 @@ public class DiskApiTest {
         MetainformationAboutDiskUser metainformationAboutDiskUser = new DiskApi()
                 .GetAllMetainformationAboutDiskUser();
         assertEquals(metainformationAboutDiskUser.getUser().getCountry(), "ru");
-        assertEquals(metainformationAboutDiskUser.getUser().getLogin(), "autotest4");
-        assertEquals(metainformationAboutDiskUser.getUser().getDisplayName(), "autotest4");
-        assertEquals(metainformationAboutDiskUser.getUser().getUid(), "476617890");
     }
 }
